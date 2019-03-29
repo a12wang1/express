@@ -4,11 +4,36 @@ var sequelize = require('../module/sqlconnect')();
 
 router.get('/', function(req, res, next) {
   // res.render('index', { title: 'Express' });
-  res.render('register')
+  res.render('index')
 });
 router.get('/caipu',function (req,res) {
   res.render('caipu')
 })
+router.get('/register',function (req,res) {
+  res.render('register')
+})
+router.get('/daijinjuan',function (req,res) {
+  res.render('daijinjuan')
+})
+router.get('/login',function (req,res) {
+  res.render('login')
+})
+router.get('/qianbao',function (req,res) {
+  res.render('qianbao')
+})
+router.get('/shezhi',function (req,res) {
+  res.render('shezhi')
+})
+router.get('/shipin',function (req,res) {
+  res.render('shipin')
+})
+router.get('/shoucang',function (req,res) {
+  res.render('shoucang')
+})
+router.get('/wode',function (req,res) {
+  res.render('wode')
+})
+
 router.post ('/login',function (req, res, next) {
   let sql = 'select password from customer where `username` = :username;';
   let password = req.body.password;

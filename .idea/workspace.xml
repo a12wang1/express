@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="062aee2c-43a1-482f-aa37-d3c4116c021d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/javascripts/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/javascripts/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/javascripts/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/styles1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/caipu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/daijinjuan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/hongbao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/qianbao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/shezhi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/shipin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/shoucang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/wode.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,19 +16,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/login.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+            <state relative-caret-position="290">
+              <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
-                <element signature="e#1264#1789#0" />
-                <element signature="e#2034#2102#0" />
-                <element signature="e#2141#2226#0" />
-                <element signature="e#2296#2686#0" />
-                <element signature="e#2746#3124#0" />
-                <element signature="e#3157#3545#0" />
+                <element signature="e#351#918#0" />
+                <element signature="e#969#1425#0" />
               </folding>
             </state>
           </provider>
@@ -64,18 +55,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/bin/www" />
-        <option value="$PROJECT_DIR$/views/register.html" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/caipu.html" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/public/javascripts/login.js" />
+        <option value="$PROJECT_DIR$/views/register.html" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="378" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="377" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -85,7 +76,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,19 +96,18 @@
             <path>
               <item name="app" type="b2602c69:ProjectViewProjectNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="app" type="b2602c69:ProjectViewProjectNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -160,12 +149,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553820188339</updated>
-      <workItem from="1553820189575" duration="2510000" />
+      <workItem from="1553820189575" duration="2630000" />
+      <workItem from="1553826256258" duration="808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2510000" />
+    <option name="totallyTimeSpent" value="3438000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -177,10 +167,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="303" y="0" width="781" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="302" y="0" width="782" height="831" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26206" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26171875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -195,7 +184,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5538262" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5531088" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -205,20 +194,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="85" column="42" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
@@ -239,13 +214,6 @@
     <entry file="file://$PROJECT_DIR$/views/daijinjuan.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/caipu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="607">
@@ -265,15 +233,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        <state relative-caret-position="1235">
+          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
-            <element signature="e#1264#1789#0" />
-            <element signature="e#2034#2102#0" />
-            <element signature="e#2141#2226#0" />
-            <element signature="e#2296#2686#0" />
-            <element signature="e#2746#3124#0" />
-            <element signature="e#3157#3545#0" />
+            <element signature="e#351#918#0" />
+            <element signature="e#969#1425#0" />
           </folding>
         </state>
       </provider>
