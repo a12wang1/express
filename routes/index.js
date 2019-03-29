@@ -3,11 +3,12 @@ var router = express.Router();
 var sequelize = require('../module/sqlconnect')();
 
 router.get('/', function(req, res, next) {
-  console.log(req)
   // res.render('index', { title: 'Express' });
   res.render('register')
 });
-
+router.get('/caipu',function (req,res) {
+  res.render('caipu')
+})
 router.post ('/login',function (req, res, next) {
   let sql = 'select password from customer where `username` = :username;';
   let password = req.body.password;

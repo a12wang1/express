@@ -1,0 +1,42 @@
+button.submit{
+	background: plum;
+	border: 1px solid plum;
+	border-bottom: 1px solid plum;
+	border-radius: 3px;
+	color:black;
+	font-weight: bold;
+	font-family: 楷体;
+	font-size: 16px;
+	padding: 6px 20px;
+	text-align: center;
+	box-shadow: 1px 0 0 pink;
+	text-shadow:0-1px 0 #396715 ;
+}
+button.reset{
+	background: plum;
+	border: 1px solid plum;
+	border-bottom: 1px solid plum;
+	border-radius: 3px;
+	color:black;
+	font-weight: bold;
+	font-family: 楷体;
+	font-size: 16px;
+	padding: 6px 20px;
+	text-align: center;
+	box-shadow: 1px 0 0 pink;
+	text-shadow:0-1px 0 #396715 ;
+}
+button.login{
+	background: plum;
+	border: 1px solid plum;
+	border-bottom: 1px solid plum;
+	border-radius: 3px;
+	color:black;
+	font-weight: bold;
+	font-family: 楷体;
+	font-size: 16px;
+	padding: 6px 20px;
+	text-align: center;
+	box-shadow: 1px 0 0 pink;
+	text-shadow:0-1px 0 #396715 ;
+}

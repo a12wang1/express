@@ -1,0 +1,157 @@
+*{
+	padding:0; 
+	margin:0; 
+	list-style: none;
+}
+.container {
+    height: 40px;
+    width: 100%;
+    margin:0;
+}
+.container .parent {
+	display: block;
+	width: 100%;
+	height: 50px;
+    position: relative;
+}
+.container .parent .search {
+    width: 300px;
+    height: 40px;
+    border-radius: 18px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 20px;
+    position: absolute;
+}
+.btn {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    font-family: "楷体";
+    background: #9F5F9F;
+    top: 3px;
+    left: 300px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.top{
+    width:361px;
+    height:250px;
+    padding:7px;
+    margin-top: 0px;
+    padding: 0;
+    position:relative;
+    overflow: hidden;
+}
+.screen{
+    width:100%;
+    height:100%;
+    position:relative;
+    margin: auto;
+}
+.item{
+	width: 361px;
+	height: 250px;
+}
+.screen li{ 
+	width: 361px;
+    height:100%; 
+    overflow: hidden;
+    float:left;
+    margin-top: 0;
+}
+.screen li img{
+	width: 100%;
+	height: 100%;
+}
+.screen ul{
+	width: 2166px;
+    position:absolute; 
+    overflow: hidden;
+    left:0; 
+    top:0px; 
+    margin: auto;
+}
+.top ol{ 
+    position:absolute; 
+    right:10px; 
+    bottom:10px; 
+    line-height:20px; 
+    text-align:center;
+}
+.top ol li{ 
+    float:left; 
+    width:20px; 
+    height:20px; 
+    background:#fff; 
+    margin-left:10px; 
+}
+.top ol li.current{ 
+    background:yellow;
+}
+#arr {
+    display: none;
+}
+#arr span{ 
+    width:40px; 
+    height:40px; 
+    position:absolute; 
+    left:5px; 
+    top:50%; 
+    margin-top:-20px; 
+    background:#000; 
+    cursor:pointer; 
+    line-height:40px; 
+    text-align:center; 
+    font-weight:bold; 
+    font-family:'楷体'; 
+    font-size:30px; 
+    color:#fff; 
+    opacity:0.3; 
+    border:1px solid #fff;
+}
+#arr #right{
+    right:5px; 
+    left:auto;
+}
+.bottom ul {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.bottom li{
+	display:inline;
+}
+.bottom{
+	width: 100%;
+	height: 100%;
+	margin-top: 0;
+	text-align: center;
+	position: relative;
+}
+.bottom ul {
+	list-style-type: none;
+	overflow: hidden;
+	width: 100%;
+	background-color: plum;
+	margin-top: 0;
+}
+.list{
+	width: 100%;
+}
+.wo{
+	text-decoration: none;
+}
+.middle{
+	width: 100%;
+	padding: 0;
+}
+.left{
+	width:60%;
+	float: left;
+}
+.right{
+	width: 40%;
+	float: right;
+}
