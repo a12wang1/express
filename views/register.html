@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <style>
+        *{
+            margin: auto;
+            padding: 0;
+        }
+        font{
+            font-size: 15px;
+            font-family: "楷体";
+        }
+        #aa{
+            font-family: "楷体";
+            font-size: 10px;
+            color: red;
+        }
+        #a{
+            font-family: "楷体";
+            font-size: 10px;
+        }
+        p{
+            font-family: "楷体";
+            font-size:30px;
+        }
+        .body{
+            width:100%;
+            height: 100%;
+        }
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body background="./images/1.jpeg">
+        <marquee direction="left" ><p>欢迎来到每日比价</p></marquee>
+        <form method="get" class="form" action="/regieter" name="form">
+            <table align="center">
+                <tr>
+                    <td colspan="3">
+                        <font btl="font-family: '楷体';font-size: 30px;">用户注册</font>
+                        <span class="require" id="aa">*表示必填项</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font>用户名:</font>
+                    </td>
+                    <td>
+                        <font><input type="text" placeholder="请输入用户名" name="username" /></font>
+                        <font color="red">*</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <font><span id="a">由4-16个字符，字母、中文、数字、下划线组成</span></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font>年龄:</font>
+                    </td>
+                    <td>
+                        <font><input type="number" placeholder="请输入年龄" name="age" /></font>
+                        <font color="red">*</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <font><span id="a">请输入实际年龄</span></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font>性别:</font>
+                    </td>
+                    <td colspan="2">
+                        <font><input type="radio" />男</font>
+                        <img src="./images/20.jpg" />
+                        <font><input type="radio" />女</font>
+                        <img src="./images/19.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <font color="red">*</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font>密码:</font>
+                    </td>
+                    <td>
+                        <font><input type="password" placeholder="请输入密码" name="password" /></font>
+                        <font color="red">*</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <font><span id="a">由6-12个字符，字母、数字、特殊符号组成</span></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font>确认密码:</font>
+                    </td>
+                    <td>
+                        <font><input type="password" placeholder="重新输入密码" name="checkpassword" /></font>
+                        <font color="red">*</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <font><span id="a">由6-12个字符，字母、数字、特殊符号组成</span></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font>手机号码:</font>
+                    </td>
+                    <td>
+                        <font><input type="number" placeholder="请输入常用手机号" name="telphone" /></font>
+                        <font color="red">*</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font>邮箱:</font>
+                    </td>
+                    <td>
+                        <font><input type="email" placeholder="请输入邮箱" name="email" /></font>
+                        <font><span>例如：12345@qq.com</span></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font>了解本软件的途径:</font>
+                    </td>
+                    <td>
+                        <font><input type="checkbox">朋友推荐</font><br />
+                        <font><input type="checkbox">网络浏览</font><br />
+                        <font><input type="checkbox">实习见习</font><br />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <a href="login.html"><button type="submit" class="submit">立即注册</button></a>
+                        <button type="reset" class="reset">重新输入</button>
+                        <a href="index.html"><button type="button" class="login">登录</button></a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+</body>
+</html>
